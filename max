@@ -1,0 +1,139 @@
+#!/bin/bash
+echo "Hola max, te veoy a enseñar unos cuantos comando para que aprendas a usar la terminal le pierdas el miedo"
+say Hola max, te veoy a enseñar unos cuantos comando para que aprendas a usar la terminal le pierdas el miedo
+echo "Primero vamos a ver que directorio estamos con el comando pwd"
+say Primero vamos a ver que directorio estamos con el comando pwd
+echo "pwd"
+pwd
+echo "El directorio es lo que en windows se llama carpeta"
+say El directorio es lo que en windows se llama carpeta
+echo "Ahora vamos a crear un directorio con el comando mkdir"
+say Ahora vamos a crear un directorio con el comando mkdir
+echo "mkdir mixmix"
+mkdir mixmix
+echo "Ahora vamos a entrar en el directorio con el comando cd"
+say Ahora vamos a entrar en el directorio con el comando cd
+echo "cd mixmix"
+cd mixmix
+echo "Ahora vamos a crear un archivo con el comando touch"
+say Ahora vamos a crear un archivo con el comando touch
+echo "touch hola.txt"
+touch hola.txt
+echo "Ahora vamos a ver que hay en el directorio con el comando ls"
+say Ahora vamos a ver que hay en el directorio con el comando ls
+echo "ls"
+ls
+echo "Como ves hay un archivo llamado hola.txt pero este esta vacio"
+say Como ves hay un archivo llamado hola.txt pero este esta vacio
+echo "Ahora vamos a escribir algo en el archivo con el comando echo"
+say Ahora vamos a escribir algo en el archivo con el comando echo
+echo 'echo "Hola max" > hola.txt'
+echo "Hola max" > hola.txt
+echo "Ahora vamos a ver que hay en el archivo con el comando cat"
+say Ahora vamos a ver que hay en el archivo con el comando cat
+echo "cat hola.txt"
+cat hola.txt
+echo "Ahora vamos a copiar el archivo con el comando cp"
+say Ahora vamos a copiar el archivo con el comando cp
+echo "cp hola.txt hola2.txt"
+cp hola.txt hola2.txt
+echo "Ahora vamos a ver que hay en el directorio con el comando ls"
+ls
+echo "Ahora vamos a borrar el archivo con el comando rm"
+say Ahora vamos a borrar el archivo con el comando rm
+echo "rm hola2.txt"
+rm hola2.txt
+echo "Ahora vamos a ver que hay en el directorio con el comando ls"
+ls
+echo "para renombrar un archivo o carpeta se usa el comando mv"
+say para renombrar un archivo o carpeta se usa el comando mv
+echo "mv hola.txt hola3.txt"
+mv hola.txt hola3.txt
+ls
+echo "El verdadero uso del comando mv es para mover archivos o carpetas de un directorio a otro"
+say El verdadero uso del comando mv es para mover archivos o carpetas de un directorio a otro
+echo "Vamos a crear un directorio nuevo"
+say Vamos a crear un directorio nuevo
+echo "mkdir mixmix2"
+mkdir mixmix2
+echo "Vamos a mover el archivo hola3.txt al directorio mixmix2"
+say Vamos a mover el archivo hola3.txt al directorio mixmix2
+echo "mv hola3.txt mixmix2"
+mv hola3.txt mixmix2
+echo "Vamos a ver que hay en el directorio mixmix2 con el comando ls"
+say Vamos a ver que hay en el directorio mixmix2 con el comando ls
+echo "ls mixmix2"
+ls mixmix2
+echo "En los sitemas UNIX como MacOS o Linux los directorios se separan con /"
+say En los sitemas UNIX como MacOS o Linux los directorios se separan con /
+echo "Vamos a ver que hay en el archivo hola3.txt con el comando cat pero ya no esta en el directorio mixmix"
+say Vamos a ver que hay en el archivo hola3.txt con el comando cat pero ya no esta en el directorio mixmix
+echo "Entos se usa el comando cat mixmix2/hola3.txt donde mixmix2 es el directorio y hola3.txt es el archivo"
+echo "cat mixmix2/hola3.txt"
+cat mixmix2/hola3.txt
+echo "Ahora vamos a borrar el directorio mixmix2 con el comando rm -r que es para borrar directorios y todo su contenido"
+say Ahora vamos a borrar el directorio mixmix2 con el comando rm -r que es para borrar directorios y todo su contenido
+echo "rm -r mixmix2"
+rm -r mixmix2
+echo "Vamos a ver que hay en el directorio mixmix con el comando ls"
+say Vamos a ver que hay en el directorio mixmix con el comando ls
+echo "ls"
+ls 
+echo "Como ves ya no hay nada en el directorio mixmix"
+say Como ves ya no hay nada en el directorio mixmix
+echo 'BASH uno de los "lenguajes de programacion" que se usa en la terminal'
+say BASH uno de los lenguajes de programacion que se usa en la terminal
+echo "Un archivo de BASH se termina en .sh y se ejecuta con el comando sh"
+say Un archivo de BASH se termina en .sh y se ejecuta con el comando sh
+echo "En un archivo de BASH puedes escribir cualquier comando que se usa en la terminal y se ejecutara en el orden en que lo escribas"
+say En un archivo de BASH puedes escribir cualquier comando que se usa en la terminal y se ejecutara en el orden en que lo escribas
+echo "Vamos a crear un archivo de BASH llamado hola.sh"
+say Vamos a crear un archivo de BASH llamado hola.sh
+echo "touch hola.sh"
+touch hola.sh
+echo "Vamos a escribir en el archivo de BASH el comando echo"
+say Vamos a escribir en el archivo de BASH el comando echo
+echo 'echo "Hola max"' > hola.sh
+echo "Hola max" > hola.sh
+echo "Vamos a ejecutar el archivo de BASH con el comando sh"
+say Vamos a ejecutar el archivo de BASH con el comando sh
+echo "sh hola.sh"
+sh hola.sh
+echo "Ahora te toca a ti"
+say ahora te toca a ti
+echo "Crea un archivo de BASH que cree un archivo llamado hola.txt, escriba en el archivo Hola max, cree una directorio llamado mixmix3, mueva el archivo hola.txt al directorio mixmix3, liste los contenidos de este, muestre el contenido del archivo hola.txt y borre el directorio mixmix3"
+echo " Cree un archivo llamado Acordeon.txt con los commandos y una descripcion de cada uno de ellos"
+say Cree un archivo llamado Acordeon.txt con los commandos y una descripcion de cada uno de ellos
+
+# Crea un archivo de texto vacío llamado "Acordeon.txt"
+touch Acordeon.txt
+
+# Añade una descripción del comando "pwd" al archivo
+echo "pwd: Muestra el directorio de trabajo actual" >> Acordeon.txt
+
+# Añade una descripción del comando "mkdir" al archivo
+echo "mkdir: Crea un nuevo directorio" >> Acordeon.txt
+
+# Añade una descripción del comando "cd" al archivo
+echo "cd: Cambia el directorio de trabajo actual" >> Acordeon.txt
+
+# Añade una descripción del comando "ls" al archivo
+echo "ls: Muestra una lista de archivos y directorios en el directorio actual" >> Acordeon.txt
+
+# Añade una descripción del comando "echo" al archivo
+echo "echo: Muestra un mensaje en pantalla o escribe en un archivo de texto" >> Acordeon.txt
+
+# Añade una descripción del comando "touch" al archivo
+echo "touch: Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente" >> Acordeon.txt
+
+# Añade una descripción del comando "mv" al archivo
+echo "mv: Mueve o renombra un archivo o directorio" >> Acordeon.txt
+
+# Añade una descripción del comando "cp" al archivo
+echo "cp: Copia un archivo o directorio" >> Acordeon.txt
+
+# Añade una descripción del comando "rm" al archivo
+echo "rm: Elimina un archivo o directorio" >> Acordeon.txt
+
+open Acordeon.txt
+
